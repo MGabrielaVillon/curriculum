@@ -36,11 +36,15 @@ nav > ul{
 }
 
 section{
-    border: 0.2pt solid #5faaaa;
+    border: 0.2pt solid #71b3b3;
 
     margin: 4px 2px 8px 2px;
 
     padding: 1.5% 0.8%;
 
     margin-bottom: 1.2rem;
+
+    border-radius: 5px;
+
+    box-shadow: 3px 3px 1px 0 rgba(235, 234, 234, 0.6);
 }
