@@ -6,3 +6,31 @@ h1{
     text-align: center;
     font-weight: bold;
 }
+
+#photo {
+
+    /* Ancho del elemento */
+    width: 8vw;
+
+    /* Alto del elemento */
+    height: auto;
+}
+
+.subtitle {
+
+    /* Color del texto en rgba */
+    color: rgb(151 156 165 / 0.89);
+
+    /* Transformación del texto a mayúsculas */
+    text-transform: uppercase;
+}
+
+
+footer p{
+    text-align: right;
+    font-style: italic;
+}
+
+nav > ul{
+    list-style: none;
+}
