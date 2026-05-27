@@ -31,9 +31,6 @@ footer p{
     font-style: italic;
 }
 
-nav > ul{
-    list-style: none;
-}
 
 section{
     border: 0.2pt solid #0ec2c2;
@@ -47,4 +44,17 @@ section{
     border-radius: 5px;
 
     box-shadow: 3px 3px 1px 0 rgba(235, 234, 234, 0.6);
+}
+
+nav > ul{
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 1rem;
+
+    padding: 0;
 }
