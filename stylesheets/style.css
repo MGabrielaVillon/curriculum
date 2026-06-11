@@ -44,8 +44,21 @@ figure{
 footer p{
     text-align: right;
     font-style: italic;
+    color:#cedddd;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
+.opciones{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    padding: 0.5rem;
+
+    border: 1px solid #cedddd;
+
+    border-radius: 5px;
+}
 
 section{
     border: 0.2pt solid #413eff;
@@ -106,14 +119,11 @@ textarea{
 
 button{
     padding: 0.7rem;
-    border: none;
+    border:#1a3b47;
     border-radius: 5px;
-    background-color: #cedddd;
+    background-color: #b9b9fa;
     cursor: pointer;
-}
 
-#contacto{
-    background-color: #f8fafa;
 }
 
 #referencias{
