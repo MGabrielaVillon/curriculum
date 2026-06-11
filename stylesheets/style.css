@@ -5,24 +5,39 @@
 h1{
     text-align: center;
     font-weight: bold;
+
+    color: white;
+
+    text-shadow: 2px 2px 4px black;
 }
 
-#photo {
-
-    /* Ancho del elemento */
-    width: 8vw;
-
-    /* Alto del elemento */
+#photo{
+    width: 20vw;
+    max-width: 250px;
     height: auto;
 }
 
 .subtitle {
 
-    /* Color del texto en rgba */
-    color: rgb(151 156 165 / 0.89);
+    color: #2c5f73;
 
-    /* Transformación del texto a mayúsculas */
     text-transform: uppercase;
+
+    text-align: center;
+}
+
+
+body{
+    background-image: url("../Foto/fondocompleto.png");
+
+    background-repeat: repeat;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+figure{
+    text-align: center;
 }
 
 
@@ -33,7 +48,7 @@ footer p{
 
 
 section{
-    border: 0.2pt solid #0ec2c2;
+    border: 0.2pt solid #413eff;
 
     margin: 4px 2px 8px 2px;
 
@@ -43,7 +58,17 @@ section{
 
     border-radius: 5px;
 
-    box-shadow: 3px 3px 1px 0 rgba(235, 234, 234, 0.6);
+    box-shadow: 3px 3px 1px 0 rgba(235, 234, 234, 0.788);
+
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+nav{
+    background-color: rgba(255,255,255,0.85);
+
+    border-radius: 10px;
+
+    padding: 0.5rem;
 }
 
 nav > ul{
@@ -108,6 +133,34 @@ button{
 
 #referencias > article{
     border: 1px solid #cedddd;
+
     padding: 1rem;
+
     border-radius: 5px;
+
+    text-align: center;
+}
+
+table{
+
+    margin: auto;
+
+    border-collapse: collapse;
+}
+
+table, th, td{
+
+    border: 1px solid #cedddd;
+}
+
+th,td{
+
+    padding: 0.5rem;
+
+    text-align: center;
+}
+
+th{
+
+    background-color: #cedddd;
 }
